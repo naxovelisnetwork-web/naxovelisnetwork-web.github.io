@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Naxovelis | Connect to What's Next.</title>
+<meta name="description" content="Naxovelis is an early-stage opportunity network for Nigerian students, graduates, freelancers and creators. Join to hear about reviewed opportunities first.">
+<meta name="theme-color" content="#0B1024">
+<meta property="og:title" content="Naxovelis | Connect to What's Next.">
+<meta property="og:description" content="An early-stage opportunity network for Nigerian students, graduates, freelancers and creators.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Crect width='120' height='120' rx='26' fill='%230B1024'/%3E%3Cpath d='M28 92V28L92 92V46' fill='none' stroke='%23316BFF' stroke-width='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='28' cy='92' r='8.5' fill='%23fff'/%3E%3Ccircle cx='28' cy='28' r='8.5' fill='%23fff'/%3E%3Ccircle cx='92' cy='92' r='8.5' fill='%23fff'/%3E%3Ccircle cx='92' cy='24' r='11' fill='%237657E8'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Naxovelis","slogan":"Connect to What's Next.","description":"An early-stage opportunity network for Nigerian students, graduates, freelancers and creators.","email":"naxovelis.network@gmail.com","sameAs":["https://www.instagram.com/naxovelis_network/"]}
+</script>
+<style>
+:root{
+  --navy:#0B1024; --navy-2:#141B3A; --blue:#316BFF; --blue-soft:#8FB0FF; --purple:#7657E8; --purple-soft:#B7A6FF;
+  --paper:#F1F3FB; --ink:#0B1024; --ink-2:#4A5170; --mist:#B4BAD6; --line-dark:rgba(143,176,255,.28); --line-light:rgba(11,16,36,.18);
+  --rail:44px;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:'Sora',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background:var(--navy);color:#fff;line-height:1.65;font-weight:400;font-size:1rem}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--purple-soft);outline-offset:3px;border-radius:4px}
+.skip{position:absolute;left:-999px;top:8px;background:#fff;color:var(--navy);padding:8px 14px;border-radius:6px;z-index:10}
+.skip:focus{left:8px}
+
+/* header */
+header{padding:16px 20px 0;max-width:1120px;margin:0 auto}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand svg{width:38px;height:38px;flex:none}
+.wordmark{font-weight:600;letter-spacing:.24em;font-size:.95rem}
+.wordmark b{color:var(--purple-soft);font-weight:600}
+.btn{display:inline-block;background:var(--blue);color:#fff;text-decoration:none;font-weight:600;font-size:.95rem;padding:13px 22px;border-radius:999px;border:0;cursor:pointer;transition:background .2s}
+.btn:hover{background:#4C80FF}
+.btn.small{padding:10px 18px;font-size:.88rem}
+.btn.ghost{background:transparent;border:1.5px solid var(--line-dark);color:#fff}
+.btn.ghost:hover{background:rgba(143,176,255,.12)}
+nav ul{list-style:none;padding:0;display:flex;gap:22px;overflow-x:auto;margin-top:14px;padding-bottom:10px;scrollbar-width:none;border-bottom:1px solid var(--line-dark)}
+nav ul::-webkit-scrollbar{display:none}
+nav a{text-decoration:none;color:var(--mist);font-size:.9rem;white-space:nowrap}
+nav a:hover{color:#fff}
+
+/* hero */
+.hero{max-width:1120px;margin:0 auto;padding:48px 20px 72px;display:grid;gap:40px;align-items:center}
+.hero h1{font-weight:300;font-size:clamp(2.5rem,9vw,4.6rem);line-height:1.04;letter-spacing:-.025em}
+.hero h1 span{display:block;font-weight:600}
+.hero p.lead{margin-top:22px;color:var(--mist);max-width:34ch;font-size:1.08rem}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.art{width:min(300px,72vw);justify-self:center}
+.art svg{width:100%;height:auto;overflow:visible}
+.art .stroke{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.7s .3s cubic-bezier(.6,.05,.2,1) forwards}
+.art .n{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .45s ease-out forwards}
+.art .n1{animation-delay:.25s}.art .n2{animation-delay:.85s}.art .n3{animation-delay:1.75s}
+.art .next{opacity:0;transform-box:fill-box;transform-origin:center;animation:land .7s 2.1s cubic-bezier(.2,1.4,.4,1) forwards}
+.art .ring{opacity:0;transform-box:fill-box;transform-origin:center;animation:ring 1.2s 2.5s ease-out forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes pop{from{opacity:0;transform:scale(.3)}to{opacity:1;transform:scale(1)}}
+@keyframes land{from{opacity:0;transform:scale(.2)}to{opacity:1;transform:scale(1)}}
+@keyframes ring{0%{opacity:.7;transform:scale(1)}100%{opacity:0;transform:scale(2.6)}}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .art .stroke{animation:none;stroke-dashoffset:0}
+  .art .n,.art .next{animation:none;opacity:1}
+  .art .ring{display:none}
+}
+
+/* route sections */
+section.stop{position:relative;padding:64px 20px 64px calc(20px + var(--rail));}
+section.stop::before{content:"";position:absolute;left:calc(20px + 9px);top:0;bottom:0;width:2px;background:var(--line-dark)}
+section.stop .in{max-width:760px;position:relative}
+section.stop h2{position:relative;font-weight:600;font-size:clamp(1.55rem,5.4vw,2.2rem);line-height:1.2;letter-spacing:-.015em}
+section.stop h2::before{content:"";position:absolute;left:calc(-1 * var(--rail) + 2px);top:.32em;width:16px;height:16px;border-radius:50%;background:var(--navy);border:3px solid var(--blue)}
+section.stop.light h2::before{background:var(--paper)}
+section.stop p{margin-top:16px;color:var(--mist);max-width:62ch}
+section.stop.light{background:var(--paper);color:var(--ink)}
+section.stop.light::before{background:var(--line-light)}
+section.stop.light p{color:var(--ink-2)}
+section.stop.light h2::before{border-color:var(--purple)}
+section.stop.alt{background:var(--navy-2)}
+section.stop.alt h2::before{background:var(--navy-2)}
+.stop .btn{margin-top:26px}
+.limit{margin-top:22px;padding:16px 18px;border-left:3px solid var(--purple);background:rgba(118,87,232,.12);border-radius:0 10px 10px 0;color:var(--ink);font-size:.95rem;max-width:62ch}
+.light .limit{background:rgba(118,87,232,.1)}
+.dark .limit{color:#fff}
+
+/* steps: a real sequence */
+.steps{list-style:none;padding:0;margin-top:28px;display:grid;gap:22px;counter-reset:s;max-width:62ch}
+.steps li{counter-increment:s;position:relative;padding-left:52px}
+.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:36px;height:36px;border-radius:50%;border:2px solid var(--blue);display:grid;place-items:center;font-weight:600;font-size:.9rem;color:var(--blue-soft)}
+.steps li:last-child::before{border-color:var(--purple-soft);color:var(--purple-soft)}
+.steps strong{display:block;font-weight:600}
+.steps span{color:var(--mist);font-size:.96rem}
+
+/* opportunity types */
+.types{list-style:none;padding:0;margin-top:26px;display:flex;flex-wrap:wrap;gap:10px;max-width:62ch}
+.types li{padding:9px 16px;border-radius:999px;border:1.5px solid var(--line-light);font-size:.92rem;color:var(--ink)}
+
+/* faq */
+.faq{margin-top:26px;max-width:62ch;border-top:1px solid var(--line-dark)}
+.faq details{border-bottom:1px solid var(--line-dark)}
+.faq summary{cursor:pointer;list-style:none;padding:18px 36px 18px 0;font-weight:600;position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:4px;top:50%;transform:translateY(-50%);font-weight:300;font-size:1.5rem;color:var(--blue-soft);transition:transform .2s}
+.faq details[open] summary::after{transform:translateY(-50%) rotate(45deg)}
+.faq details p{margin:0 0 18px;color:var(--mist);font-size:.97rem}
+
+/* footer */
+footer{padding:56px 20px 40px;max-width:1120px;margin:0 auto}
+footer .tag{font-weight:300;font-size:clamp(1.6rem,6vw,2.4rem);letter-spacing:-.02em;margin-top:18px}
+footer ul{list-style:none;padding:0;margin-top:26px;display:grid;gap:8px}
+footer a{color:var(--blue-soft)}
+footer small{display:block;margin-top:34px;color:var(--mist);font-size:.82rem;max-width:62ch}
+
+@media (min-width:820px){
+  header{padding-top:22px}
+  nav ul{border:0;margin-top:0;padding:0;overflow:visible}
+  .bar{gap:32px}
+  header .wrap{display:flex;align-items:center;justify-content:space-between}
+  .hero{grid-template-columns:1.15fr .85fr;padding:96px 20px 120px}
+  .art{width:340px}
+  section.stop{padding:96px 20px 96px calc(max(20px, (100vw - 1120px)/2) + var(--rail))}
+  section.stop::before{left:calc(max(20px, (100vw - 1120px)/2) + 9px)}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header>
+  <div class="wrap">
+    <div class="bar">
+      <a class="brand" href="#top" aria-label="Naxovelis home">
+        <svg viewBox="0 0 120 120" aria-hidden="true"><path d="M28 92V28L92 92V46" fill="none" stroke="#316BFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><circle cx="28" cy="92" r="8.5" fill="#fff"/><circle cx="28" cy="28" r="8.5" fill="#fff"/><circle cx="92" cy="92" r="8.5" fill="#fff"/><circle cx="92" cy="24" r="11" fill="#7657E8"/></svg>
+        <span class="wordmark">NA<b>X</b>OVELIS</span>
+      </a>
+      <a class="btn small join" href="#join">Join Naxovelis</a>
+    </div>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#opportunities">Discover opportunities</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#community">Community</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="hero" id="top">
+    <div>
+      <h1>Connect to <span>What's Next.</span></h1>
+      <p class="lead">Discover opportunities, connect with people, show your skills, and take your next step.</p>
+      <div class="cta">
+        <a class="btn join" href="#join">Join Naxovelis</a>
+        <a class="btn ghost" href="#opportunities">Explore opportunities</a>
+      </div>
+    </div>
+    <div class="art" aria-hidden="true">
+      <svg viewBox="0 0 120 120">
+        <path class="stroke" pathLength="1" d="M28 92V28L92 92V46" fill="none" stroke="#316BFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle class="n n1" cx="28" cy="92" r="8.5" fill="#fff"/>
+        <circle class="n n2" cx="28" cy="28" r="8.5" fill="#fff"/>
+        <circle class="n n3" cx="92" cy="92" r="8.5" fill="#fff"/>
+        <circle class="ring" cx="92" cy="24" r="11" fill="none" stroke="#7657E8" stroke-width="2"/>
+        <circle class="next" cx="92" cy="24" r="11" fill="#7657E8"/>
+      </svg>
+    </div>
+  </div>
+
+  <section class="stop light" id="about">
+    <div class="in">
+      <h2>A network for what you can do next</h2>
+      <p>Naxovelis is building a network that connects people, skills, ideas, projects and opportunities. We start in Nigeria, with students, graduates, freelancers and digital creators.</p>
+      <p>We are at an early stage and we are building this with the community, so what we offer will grow with what members need. We will always say clearly what exists today and what is still being built.</p>
+    </div>
+  </section>
+
+  <section class="stop dark" id="how">
+    <div class="in">
+      <h2>How it works</h2>
+      <ol class="steps">
+        <li><strong>Join the network</strong><span>Fill in a short form. It takes about two minutes.</span></li>
+        <li><strong>Discover and connect</strong><span>Hear about reviewed opportunities and meet people who can help.</span></li>
+        <li><strong>Take action</strong><span>Apply, build, learn, and show your progress.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="stop light" id="opportunities">
+    <div class="in">
+      <h2>Discover opportunities</h2>
+      <p>We are collecting opportunities from sources we can check, and we share only the ones we have reviewed. The kinds we are looking for:</p>
+      <ul class="types">
+        <li>Scholarships</li><li>Internships</li><li>Competitions</li><li>Training programmes</li>
+        <li>Freelance projects</li><li>Entry-level roles</li><li>Collaborations</li><li>Events</li>
+      </ul>
+      <div class="limit">The opportunity board is still being built, so there are no listings yet. Join now and we will tell you when the first reviewed ones go up.</div>
+      <a class="btn join" href="#join">Get updates</a>
+    </div>
+  </section>
+
+  <section class="stop dark" id="showcase">
+    <div class="in">
+      <h2>Show what you can do</h2>
+      <p>Your projects and portfolio matter more than a list of claims. We want members to share useful work with people who can notice it. A showcase space is on our plan and it is not built yet. Tell us what you make when you join.</p>
+    </div>
+  </section>
+
+  <section class="stop alt" id="providers">
+    <div class="in">
+      <h2>For businesses and opportunity providers</h2>
+      <p>If you run a legitimate programme, role, project or event, you can send it to us. We will review it before we share it with members. Email us the title, who it is for, the deadline and an official link.</p>
+      <a class="btn" href="mailto:naxovelis.network@gmail.com?subject=Opportunity%20submission%20for%20Naxovelis">Submit an opportunity</a>
+    </div>
+  </section>
+
+  <section class="stop dark" id="community">
+    <div class="in">
+      <h2>Community</h2>
+      <p>Official announcements and member discussion will happen on WhatsApp, in a Channel for updates and a Community for conversation. Neither is open yet, so please do not trust any invite link that claims to be ours until we post it here and on Instagram.</p>
+      <a class="btn ghost" href="https://www.instagram.com/naxovelis_network/" rel="noopener">Follow on Instagram</a>
+    </div>
+  </section>
+
+  <section class="stop light" id="join">
+    <div class="in">
+      <h2>Join Naxovelis</h2>
+      <p>Joining is free. The form asks for your name, email, what you do, and the opportunities you want. We use it to share relevant updates with you. We never ask for passwords, bank details or ID documents.</p>
+      <a class="btn join" id="joinBtn" href="#join" rel="noopener">Open the join form</a>
+    </div>
+  </section>
+
+  <section class="stop dark" id="faq">
+    <div class="in">
+      <h2>Questions</h2>
+      <div class="faq">
+        <details><summary>What is Naxovelis?</summary><p>An early-stage network that connects people, skills and opportunities, starting in Nigeria.</p></details>
+        <details><summary>Who can join?</summary><p>Students, graduates, freelancers, digital creators, and anyone looking for a way forward. Businesses and organisations can also get in touch.</p></details>
+        <details><summary>Does it cost anything to join?</summary><p>No. Joining is free.</p></details>
+        <details><summary>How do I know an opportunity is real?</summary><p>We review each one before sharing it, and we will leave out any we cannot verify. Still, always check the official source before you apply. Never pay anyone to get an opportunity, and tell us if someone asks you to.</p></details>
+        <details><summary>How can I submit an opportunity?</summary><p>Email naxovelis.network@gmail.com with the title, who it is for, the deadline and an official link.</p></details>
+        <details><summary>Is Naxovelis available outside Nigeria?</summary><p>We are starting in Nigeria. We hope to grow beyond it, and we will say so here when that happens.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="stop light" id="contact">
+    <div class="in">
+      <h2>Contact</h2>
+      <p>Email <a href="mailto:naxovelis.network@gmail.com">naxovelis.network@gmail.com</a> or message us on <a href="https://www.instagram.com/naxovelis_network/" rel="noopener">Instagram</a>.</p>
+      <p>You can also chat with us on <a href="https://wa.me/2348137536315" rel="noopener">WhatsApp (0813 753 6315)</a> or call <a href="tel:+2347035618220">0703 561 8220</a>.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <a class="brand" href="#top" aria-label="Back to top">
+    <svg viewBox="0 0 120 120" aria-hidden="true" width="38" height="38"><path d="M28 92V28L92 92V46" fill="none" stroke="#316BFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><circle cx="28" cy="92" r="8.5" fill="#fff"/><circle cx="28" cy="28" r="8.5" fill="#fff"/><circle cx="92" cy="92" r="8.5" fill="#fff"/><circle cx="92" cy="24" r="11" fill="#7657E8"/></svg>
+    <span class="wordmark">NA<b>X</b>OVELIS</span>
+  </a>
+  <p class="tag">Connect to What's Next.</p>
+  <ul>
+    <li><a href="mailto:naxovelis.network@gmail.com">naxovelis.network@gmail.com</a></li>
+    <li><a href="https://www.instagram.com/naxovelis_network/" rel="noopener">Instagram: @naxovelis_network</a></li>
+    <li><a href="https://wa.me/2348137536315" rel="noopener">WhatsApp: 0813 753 6315</a></li>
+    <li><a href="tel:+2347035618220">Call: 0703 561 8220</a></li>
+  </ul>
+  <small>Naxovelis is an early-stage project in Nigeria. We cannot promise jobs, income or admission to any programme. Always confirm opportunities with their official source.</small>
+</footer>
+
+<script>
+  // Paste the Google Form link between the quotes. Leave it empty until the form link is ready.
+  var JOIN_URL = "https://docs.google.com/forms/d/e/1FAIpQLScAI5ZvmSBnzYe6a7-2GwXaT6y_6aPqQFaq8wRPSgcA30FLjw/viewform";
+  if (JOIN_URL) {
+    document.querySelectorAll('a.join').forEach(function(a){ a.href = JOIN_URL; a.target = '_blank'; a.rel = 'noopener'; });
+  }
+</script>
+</body>
+</html>
